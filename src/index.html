@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <include src="components/head.html"></include>
+  </head>
+  <body>
+    
+    <include src="components/header.html"></include>
+
+    <main role="main">
+      <article id="webslides">
+
+        <!-- Quick Guide
+          - Each parent <section> in the <article id="webslides"> element is an individual slide.
+          - Vertical sliding = <article id="webslides" class="vertical">
+          - <div class="wrap"> = container 90% / <div class="wrap size-50"> = 45%;
+        -->
+
+        <include src="slides/001-intro.html"></include>
+        <include src="slides/002-slide.html"></include>
+        <include src="slides/003-slide-html-presentations.html"></include>
+        <include src="slides/004-slide-features.html"></include>
+        <include src="slides/005-to-inspire.html"></include>
+        <include src="slides/006-culture-of-excellence.html"></include>
+        <include src="slides/007-founded-1976.html"></include>
+        <include src="slides/008-iphone-7.html"></include>
+        <include src="slides/009-48-billion.html"></include>
+        
+        <include src="slides/039-slide-start-in-seconds.html"></include>
+        <include src="slides/040-thank-you.html"></include>
+
+      </article>
+    </main>
+    <!--main-->
+    
+
+    <!-- Required -->
+    <script src="./scripts/webslides.js"></script>
+    <script src="./scripts/index.js"></script>
+    
+    <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
+    <script defer src="./scripts/svg-icons.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+{"version":3,"sources":["scripts/index.js"],"names":["window","ws","WebSlides"],"mappings":";AAAAA,OAAOC,GAAK,IAAIC","file":"scripts.81bedfd7.js","sourceRoot":"..\\src","sourcesContent":["window.ws = new WebSlides()\r\n"]}
