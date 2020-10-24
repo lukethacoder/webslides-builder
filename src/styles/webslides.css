@@ -1243,7 +1243,7 @@ figure[class*='text-pull-'] {
 2.1. San Francisco Font (Apple's new font)
 =========================================== */
 .text-apple,
-.bg-apple {
+.bg-brand-primary {
   font-family: 'San Francisco', helvetica, arial, sans-serif; }
 
 /* Ultra Light */
@@ -3183,7 +3183,7 @@ Slides - Backgrounds <section class="bg-primary">
   text-shadow: none; }
 
 /* BG Apple Keynote*/
-.bg-apple {
+.bg-brand-primary {
   background: -webkit-gradient(linear, left top, left bottom, from(#000), color-stop(50%, #1a2028), to(#293845));
   background: linear-gradient(to bottom, #000 0%, #1a2028 50%, #293845 100%); }
 
@@ -3197,7 +3197,7 @@ Slides - Backgrounds <section class="bg-primary">
 .bg-purple,
 .bg-red,
 .bg-facebook,
-.bg-apple,
+.bg-brand-primary,
 [class*='bg-black'],
 [class*='bg-gradient-'] {
   color: #fff;

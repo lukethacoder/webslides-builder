@@ -48,10 +48,10 @@ In the `src/index.html` file:
 Individual slides should still follow the webslides standards:
 
 ```html
-<section class="bg-apple aligncenter">
+<section class="bg-brand-primary aligncenter">
   <!--.wrap = container (width: 90%) -->
   <div class="wrap">
-    <h1><img class="whitelogo" src="./images/logos/apple.svg" alt="Apple Logo"></h1>
+    <h1><img class="whitelogo" src="./images/logos/apple.svg" alt="Brand Logo"></h1>
   </div>
   <!-- .end .wrap -->
 </section>

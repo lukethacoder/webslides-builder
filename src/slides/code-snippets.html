@@ -1,0 +1,52 @@
+<section class="bg-brand-primary">
+  <div class="wrap size-50">
+    <h2><strong>prismjs</strong></h2>
+    <p>Included prismjs for nice syntax highlighting.</p>
+    <pre>
+      <code class="language-js">
+const data = [1, 2, 3, 4, 5]
+const newData = []
+data.forEach((item) => {
+  newData.push(item * 2)
+})
+
+console.log(newData) // [2, 4, 6, 8, 10]</code>
+      </pre>
+
+    <pre>
+      <code class="language-rust">
+#[allow(missing_debug_implementations)]
+pub struct App {
+    pub primary_database: db::DieselPool,
+
+    pub read_only_replica_database: Option<db::DieselPool>,
+
+    pub github: BasicClient,
+
+    pub session_key: String,
+
+    pub config: Config,
+
+    pub(crate) http_client: Option<Client>,
+}</code>
+    </pre>
+    <pre>
+      <code class="language-java">
+List&lt;Contact> contacts = [ SELECT Id, AccountId FROM Contact ];
+
+  Map&lt;Id, List&lt;Contact>> contactsByAccountIds = new Map&lt;Id, List&lt;Contact>>();
+  for (Contact contact : contacts) {
+      if (contactsByAccountIds.containsKey(contact.AccountId)) {
+          List&lt;Contact> existing = contactsByAccountIds.get(contact.AccountId);
+          existing.add(contact);
+          contactsByAccountIds.put(contact.AccountId, existing);
+      } else {
+          List&lt;Contact> newList = new List&lt;Contact>();
+          newList.add(contact);
+          contactsByAccountIds.put(contact.AccountId, newList);
+      }
+  }</code>
+    </pre>
+  </div>
+  <!-- .end .wrap -->
+</section>
