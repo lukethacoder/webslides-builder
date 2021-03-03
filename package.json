@@ -22,7 +22,7 @@
     "sass": "^1.27.0"
   },
   "dependencies": {
-    "prismjs": "^1.18.0",
+    "prismjs": "^1.23.0",
     "webslides": "^1.5.0"
   }
 }
